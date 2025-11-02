@@ -18,13 +18,13 @@ export const Intro: React.FC = () => {
 	const transitionStart = 0;
 
 	return (
-		<div style={{flex: 1, backgroundColor: 'gray'}}>
+		<div style={{flex: 1}}>
 			<div style={{opacity}}>
 				<Sequence from={transitionStart} durationInFrames={Infinity}>
 					<Bags />
 				</Sequence>
 				<Sequence from={transitionStart} durationInFrames={Infinity}>
-					<Text w={800}/>
+					<Text w={800} />
 				</Sequence>
 			</div>
 		</div>

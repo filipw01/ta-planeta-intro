@@ -13,3 +13,7 @@ dist
 !src**/*.aac
 *.wav
 !src**/*.wav
+*.mov
+!src**/*.mov
+
+TaPlanetaIntro
